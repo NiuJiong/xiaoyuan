@@ -19,7 +19,7 @@ a {
 	text-decoration: none;
 }
 
-.huitui {
+/*.huitui {
 	display: none;
 }
 
@@ -74,7 +74,7 @@ a {
 		border: none;
 		background: none;
 	}
-}
+}*/
 
 .clearlr:after {
 	content: "";
@@ -607,9 +607,7 @@ header .two {
 	position: relative;
 }
 
-.bigcase .case ul li:nth-child(n+2) {
-	margin-top: 10px;
-}
+
 
 .bigcase .case ul li:after {
 	content: "";
@@ -662,6 +660,9 @@ header .two {
 	margin-top: 35px;
 }
 
+.bigcase .case ul li p:nth-child(5)>span {
+	display: inline-block;
+}
 .bigcase .case ul li p:nth-child(5)>span span {
 	display: block;
 }
@@ -671,7 +672,9 @@ header .two {
 	margin-top: 18px;
 	color: #999999;
 }
-
+/*.bigcase .case ul li:nth-child(3) p:nth-child(5){
+	margin-top: 32px;
+}*/
 .bigcase .case ul li p:nth-child(5)>span span:nth-child(2) a {
 	font-size: 14px;
 	color: #999999;
@@ -689,13 +692,13 @@ header .two {
 
 .bigcase .case ul li:nth-child(2) p:nth-child(5)>span span:nth-child(2) {
 	font-size: 14px;
-	margin-top: 13px;
+	margin-top: 18px;
 	color: #999999;
 }
 
 @media (max-width: 768px) {
 	.bigcase .case {
-		padding: 30px 0 51px 0;
+		padding: 30px 0 30px 0;
 	}
 	.bigcase .case p {
 		font-size: 18px;
@@ -784,6 +787,9 @@ header .two {
 		margin-top: 13px;
 		color: #999999;
 	}
+	.bigcase .case ul li:nth-child(n+2) {
+		margin-top: 10px;
+	}
 }
 
 
@@ -839,7 +845,7 @@ header .two {
 		background: #f7faff;
 		overflow: hidden;
 		padding-bottom: 30px;
-		padding-top: 40px;
+		padding-top:0;
 	}
 	.consociation ul {
 		list-style: none;
