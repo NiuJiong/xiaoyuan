@@ -7,7 +7,7 @@
 /*	height: 300px;*/
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(79,92,189,0.15);
-	z-index: 9999;
+	z-index: 99999;
 }
 .rightside a{
 	float: left;
